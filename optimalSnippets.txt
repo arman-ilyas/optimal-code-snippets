@@ -11,3 +11,12 @@ ex: 151
 function digital_root(n) {
   return (n - 1) % 9 + 1;
 }
+
+
+2. Return the number of vowels in string
+
+function getCount(str) {
+  return (str.match(/[aeiou]/ig)||[]).length;
+}
+
+3.
